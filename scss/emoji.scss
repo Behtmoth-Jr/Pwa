@@ -1,0 +1,7 @@
+@import "colors.scss";
+nav {
+    .emoji {
+        background-color: $color_input_active;
+        box-shadow: 1px 1px 8px 7px $color_input_shadow;
+    }
+}
