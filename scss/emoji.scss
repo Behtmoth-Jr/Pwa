@@ -5,3 +5,14 @@ nav {
         box-shadow: 1px 1px 8px 7px $color_input_shadow;
     }
 }
+.emojis-container {
+    display: flex;
+    flex-wrap: wrap;
+    .emoji-wrapper {
+        flex: 50%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin: 15px 0;
+    }
+}

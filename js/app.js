@@ -31,7 +31,7 @@ function loadEmojis() {
         emojiContainer.classList.add('emoji-wrapper');
 
         // Создание элемента для вывода названия
-        const emojiName = document.createElement('h2');
+        const emojiName = document.createElement('p');
         emojiName.textContent = key; // Установка текста названия
 
         // Добавление эмодзи и названия в контейнер
