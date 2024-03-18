@@ -1,0 +1,63 @@
+@import "colors.scss";
+
+@font-face {
+	font-family: 'gilroy';
+	src: url('../fonts/gilroy-regular.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/gilroy-regular.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../fonts/gilroy-regular.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/gilroy-regular.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../fonts/gilroy-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/gilroy-regular.svg#gilroy-regular') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.wrapper {
+    display: flex;
+    padding: 15px;
+}
+
+body {
+    background-color: $color_back;
+    font-family:'gilroy';
+}
+p {
+    font-size: 1.3em;
+}
+header {
+    background-color: $color_header;
+    button, a {
+        height: 55px;
+        background-color: #39DB00;
+        border: none;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 55px;
+    }
+    nav{
+        justify-content: space-between;
+    }
+    .head {
+        justify-content: space-between;
+        position: relative;
+        &::after{
+            display: block;
+            position: absolute;
+            top: 46px;
+            content: "";
+            width: 93%;
+            height: 6px;
+            border-radius: 10px;
+            background-color: #39DB00;
+            margin-top: 34px;
+        }
+    }
+}
