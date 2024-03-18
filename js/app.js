@@ -53,9 +53,6 @@ let deferredPrompt; // Переменная для хранения событи
       // Сохраняем событие
       deferredPrompt = e;
 
-      // Показываем кнопку установки
-      document.getElementById('install-btn').style.display = 'block';
-
       // Предотвращаем браузерный диалог об установке
       e.preventDefault();
     });
