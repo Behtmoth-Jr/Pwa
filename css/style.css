@@ -68,3 +68,9 @@ header .head::after {
   background-color: #39DB00;
   margin-top: 34px;
 }
+
+.install-btn:active {
+  background-color: #2faf00;
+  -webkit-box-shadow: 1px 1px 8px 7px #ffffff;
+          box-shadow: 1px 1px 8px 7px #ffffff;
+}
