@@ -60,7 +60,7 @@ header .head {
 header .head::after {
   display: block;
   position: absolute;
-  top: 46px;
+  bottom: 1%;
   content: "";
   width: 93%;
   height: 6px;
