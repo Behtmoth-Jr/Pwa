@@ -45,6 +45,8 @@ header button, header a {
       -ms-flex-align: center;
           align-items: center;
   width: 55px;
+  -webkit-transition: 0.3s ease-out;
+  transition: 0.3s ease-out;
 }
 header nav {
   -webkit-box-pack: justify;
@@ -73,4 +75,12 @@ header .head::after {
   background-color: #2faf00;
   -webkit-box-shadow: 1px 1px 8px 7px #ffffff;
           box-shadow: 1px 1px 8px 7px #ffffff;
+}
+
+.block {
+  background-color: #85EC7C;
+  border-radius: 15px;
+  padding: 20px;
+  -webkit-box-shadow: 1px 1px 12px 2px;
+          box-shadow: 1px 1px 12px 2px;
 }

@@ -40,8 +40,3 @@ main .circle-image img {
   -o-object-fit: cover;
      object-fit: cover;
 }
-main .main-txt {
-  background-color: #85EC7C;
-  border-radius: 15px;
-  padding: 20px;
-}

@@ -1,3 +1,5 @@
+let deferredPrompt; // Переменная для хранения события beforeinstallprompt
+var k;
 window.addEventListener('load', async () => {
   if ('serviceWorker' in navigator) {
     try {
@@ -8,8 +10,6 @@ window.addEventListener('load', async () => {
     }
   }
 })
-
-let deferredPrompt; // Переменная для хранения события beforeinstallprompt
 
     window.addEventListener('beforeinstallprompt', (e) => {
       // Сохраняем событие
@@ -29,7 +29,31 @@ let deferredPrompt; // Переменная для хранения событи
         if (choiceResult.outcome === 'accepted') {
           console.log('App installed');
           document.getElementById('install-btn').style.display = 'none';
+          localStorage.setItem('k', 1);
         }
         deferredPrompt = null;
       });
     });
+
+    window.addEventListener('load', async () => {
+      let v =localStorage.getItem('k');
+      console.log(v);
+      if (v == 1) {
+        console.log('App installed');
+        document.getElementById('install-btn').style.display = 'none';
+      }
+  })
+
+const CACHE_NAME = "vitlev-v1"; // Увеличиваем версию кэша
+
+const urlsToCache = [
+  "index.html",
+];
+
+self.addEventListener("install", (event) => {
+  event.waitUntil(
+    caches.open(CACHE_NAME).then((cache) => {
+      return cache.addAll(urlsToCache);
+    })
+  );
+});

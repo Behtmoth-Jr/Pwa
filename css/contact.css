@@ -13,13 +13,6 @@ main {
       -ms-flex-direction: column;
           flex-direction: column;
 }
-main .main-txt {
-  background-color: #85EC7C;
-  border-radius: 15px;
-  padding: 20px;
-  -webkit-box-shadow: 1px 1px 12px 2px;
-          box-shadow: 1px 1px 12px 2px;
-}
 main img {
   width: 20px;
   height: 20px;
