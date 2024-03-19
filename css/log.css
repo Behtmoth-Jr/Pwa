@@ -1,5 +1,5 @@
 nav .header-log {
-  background-color: #2faf00;
+  background-color: #0B304F;
   -webkit-box-shadow: 1px 1px 8px 7px #ffffff;
           box-shadow: 1px 1px 8px 7px #ffffff;
 }
@@ -21,7 +21,7 @@ main .main-item {
   margin-top: 30px;
 }
 main .main-item button {
-  background-color: #39DB00;
+  background-color: #1964a3;
   border-radius: 50%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -43,7 +43,7 @@ main .main-item button {
           box-shadow: 1px 1px 12px 2px;
 }
 main .main-item button:active {
-  background-color: #2faf00;
+  background-color: #0B304F;
   -webkit-transition: 0.3s ease-out;
   transition: 0.3s ease-out;
 }
