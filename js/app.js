@@ -44,7 +44,7 @@ window.addEventListener('load', async () => {
       }
   })
 
-const CACHE_NAME = "vitlev-v1"; // Увеличиваем версию кэша
+const CACHE_NAME = "Chelpanov V.S."; // Увеличиваем версию кэша
 
 const urlsToCache = [
   "index.html",
