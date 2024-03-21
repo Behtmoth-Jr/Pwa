@@ -1,5 +1,5 @@
 let deferredPrompt; // Переменная для хранения события beforeinstallprompt
-var k;
+let k;
 window.addEventListener('load', async () => {
   if ('serviceWorker' in navigator) {
     try {
