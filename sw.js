@@ -10,7 +10,11 @@ const CACHE_NAME = "Chelpanov"; // Увеличиваем версию кэша
 const urlsToCache = [
   "/index.html",
   '/js/app.js',
-  '/css/styles.css',
+  '/css/style.css',
+  '/css/log.css',
+  '/css/index.css',
+  '/css/contact.css',
+  
 ];
 
 self.addEventListener("install", (event) => {
