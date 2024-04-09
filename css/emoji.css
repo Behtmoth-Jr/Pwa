@@ -1,5 +1,5 @@
 nav .emoji {
-  background-color: #0B304F;
+  background-color: #2faf00;
   -webkit-box-shadow: 1px 1px 8px 7px #ffffff;
           box-shadow: 1px 1px 8px 7px #ffffff;
 }
@@ -26,15 +26,4 @@ nav .emoji {
       -ms-flex-direction: column;
           flex-direction: column;
   margin: 15px 0;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-.emojis-container .emoji-wrapper img {
-  margin-bottom: 10px;
-}
-.emojis-container p {
-  background-color: #0B304F;
-  border-radius: 5px;
-  padding: 5px;
 }

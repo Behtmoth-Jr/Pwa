@@ -19,21 +19,20 @@
 }
 
 body {
-  background-color: #dfe3ff;
+  background-color: #DFFFF0;
   font-family: "gilroy";
 }
 
 p {
   font-size: 1.3em;
-  color: white;
 }
 
 header {
-  background-color: #5FCAEC;
+  background-color: #7AFF3C;
 }
 header button, header a {
   height: 55px;
-  background-color: #1964a3;
+  background-color: #39DB00;
   border: none;
   border-radius: 50%;
   display: -webkit-box;
@@ -68,18 +67,18 @@ header .head::after {
   width: 93%;
   height: 6px;
   border-radius: 10px;
-  background-color: #1964a3;
+  background-color: #39DB00;
   margin-top: 34px;
 }
 
 .install-btn:active {
-  background-color: #0B304F;
+  background-color: #2faf00;
   -webkit-box-shadow: 1px 1px 8px 7px #ffffff;
           box-shadow: 1px 1px 8px 7px #ffffff;
 }
 
 .block {
-  background-color: #0B304F;
+  background-color: #85EC7C;
   border-radius: 15px;
   padding: 20px;
   -webkit-box-shadow: 1px 1px 12px 2px;

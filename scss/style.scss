@@ -29,7 +29,6 @@ body {
 }
 p {
     font-size: 1.3em;
-    color: white;
 }
 header {
     background-color: $color_header;
@@ -70,7 +69,7 @@ header {
     }
 }
 .block {
-    background-color: $color_block;
+    background-color: #85EC7C;
     border-radius: 15px;
     padding: 20px;
     box-shadow: 1px 1px 12px 2px;

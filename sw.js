@@ -1,4 +1,4 @@
-const CACHE_NAME = "Chelpanov V.S."; // Увеличиваем версию кэша
+const CACHE_NAME = "vitlev-v2"; // Увеличиваем версию кэша
 
 const urlsToCache = [
   "/index.html"
