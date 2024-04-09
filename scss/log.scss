@@ -5,7 +5,9 @@ nav {
         box-shadow: 1px 1px 8px 7px $color_input_shadow;
     }
 }
-
+p {
+    margin-bottom: 10px;
+}
 main {
     .main-item {
         display: flex;
@@ -13,23 +15,6 @@ main {
         align-items: center;
         justify-content: center;
         margin-top: 30px;
-
-        button {
-            background-color: $color_input;
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            width: 213px;
-            height: 213px;
-            flex-direction: column;
-            justify-content: center;
-            border: none;
-            box-shadow: 1px 1px 12px 2px;
-            &:active {
-                background-color: $color_input_active;
-                transition: 0.3s ease-out;
-            }
-        }
 
         .block {
             margin-top: 35px;

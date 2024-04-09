@@ -1,5 +1,5 @@
 let deferredPrompt; // Переменная для хранения события beforeinstallprompt
-var k;
+let k;
 window.addEventListener('load', async () => {
   if ('serviceWorker' in navigator) {
     try {
@@ -43,17 +43,3 @@ window.addEventListener('load', async () => {
         document.getElementById('install-btn').style.display = 'none';
       }
   })
-
-const CACHE_NAME = "vitlev-v1"; // Увеличиваем версию кэша
-
-const urlsToCache = [
-  "index.html",
-];
-
-self.addEventListener("install", (event) => {
-  event.waitUntil(
-    caches.open(CACHE_NAME).then((cache) => {
-      return cache.addAll(urlsToCache);
-    })
-  );
-});
